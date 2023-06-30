@@ -1,0 +1,10 @@
+import os
+
+for i in range(5):
+    path = './folder'+str(i)
+    os.mkdir(path)
+    for j in range(5):
+        path = './folder'+str(i)+'/folder'+str(j)
+        os.mkdir(path)
+
+    
